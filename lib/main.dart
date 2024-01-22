@@ -1,5 +1,4 @@
-import 'package:cookbook_flutter/take_picture_demo.dart';
-import 'package:cookbook_flutter/play_video_demo.dart';
+import 'package:cookbook_flutter/isolate_parse_background.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const VideoApp()
+      home: const IsolateParsingApp(title: "Background Parsing")
     );
   }
 }
