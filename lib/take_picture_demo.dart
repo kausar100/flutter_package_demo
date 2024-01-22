@@ -3,14 +3,14 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class TakePictureScreen extends StatefulWidget {
+  const TakePictureScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<TakePictureScreen> createState() => _TakePictureScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _TakePictureScreenState extends State<TakePictureScreen> {
   XFile? imageFile;
 
   @override
