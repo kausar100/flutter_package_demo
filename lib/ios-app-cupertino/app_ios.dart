@@ -1,16 +1,9 @@
-import 'package:cookbook_flutter/ios-app-cupertino/product.dart';
 import 'package:cookbook_flutter/ios-app-cupertino/product_list.dart';
-import 'package:cookbook_flutter/ios-app-cupertino/product_row_item.dart';
 import 'package:cookbook_flutter/ios-app-cupertino/search_product.dart';
 import 'package:cookbook_flutter/ios-app-cupertino/shopping_cart_tab.dart';
-import 'package:cookbook_flutter/ios-app-cupertino/styles.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:intl/intl.dart';
-import 'package:provider/provider.dart';
 
-import 'app_state_model.dart';
 
 // void main() {
 //   return runApp(
