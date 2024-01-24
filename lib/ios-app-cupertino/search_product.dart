@@ -4,7 +4,6 @@ import 'package:cookbook_flutter/ios-app-cupertino/styles.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 
-import 'app_ios.dart';
 import 'app_state_model.dart';
 
 class SearchTab extends StatefulWidget {

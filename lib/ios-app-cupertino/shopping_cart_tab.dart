@@ -4,7 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
-import 'app_ios.dart';
 import 'app_state_model.dart';
 
 class ShoppingCartTab extends StatefulWidget {
